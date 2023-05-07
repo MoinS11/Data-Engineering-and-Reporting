@@ -10,3 +10,5 @@
 • Optimized 20+ ETL jobs ensuring one-click load using master job and parallelization with record time: 1 hr 47 mins, improving efficiency by 45%
 
 • Visualized data using Tableau and Power BI, implemented DAX queries and devised interactive dashboards highlighting critical KPIs
+
+IMDB Powerbi Dashboard : https://tinyurl.com/IMDB-Data-Analysis
