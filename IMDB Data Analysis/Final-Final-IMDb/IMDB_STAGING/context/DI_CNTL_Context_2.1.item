@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_2MYAoBOSEeuOR9BhkZqqgw">
+    <contextParameter comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo" xmi:id="_2MYAoROSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DI_CNTL" xmi:id="_2MYAohOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="abbas_f" xmi:id="_2MYAoxOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_2MYApBOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" xmi:id="_2MYApROSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2MYAphOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:7N2OWUY6k8nd20QCEkoW94CA7oDbQEy2A8s4m5qIQatX7Gua" xmi:id="_2MYApxOSEeuOR9BhkZqqgw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_2MYAqBOSEeuOR9BhkZqqgw">
+    <contextParameter comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo" xmi:id="_2MYAqROSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DI_CNTL" xmi:id="_2MYAqhOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="abbas_f" xmi:id="_2MYAqxOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_2MYArBOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" xmi:id="_2MYArROSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2MYArhOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:gml54d7hKJ02+Dcq6rBg/TovAmzjFdLIgyUlwr2SdqW6ySIw" xmi:id="_2MYArxOSEeuOR9BhkZqqgw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="LOC" xmi:id="_IesskBQDEeuLR-lMc9lxEA">
+    <contextParameter comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo" xmi:id="_IesskRQDEeuLR-lMc9lxEA"/>
+    <contextParameter comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DI_CNTL" xmi:id="_IesskhQDEeuLR-lMc9lxEA"/>
+    <contextParameter comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="abbas_f" xmi:id="_IesskxQDEeuLR-lMc9lxEA"/>
+    <contextParameter comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_IesslBQDEeuLR-lMc9lxEA"/>
+    <contextParameter comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" xmi:id="_IesslRQDEeuLR-lMc9lxEA"/>
+    <contextParameter comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_IesslhQDEeuLR-lMc9lxEA"/>
+    <contextParameter comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:mSC8J7h5kPyKbRLGULDZVotOMjAty8iLs3RXJxQSlhq9WONk" xmi:id="_IesslxQDEeuLR-lMc9lxEA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PRD" xmi:id="_2MYAsBOSEeuOR9BhkZqqgw">
+    <contextParameter comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo" xmi:id="_2MYAsROSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DI_CNTL_PRD" xmi:id="_2MYAshOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="abbas_f" xmi:id="_2MYAsxOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_2MYAtBOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" xmi:id="_2MYAtROSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2MYAthOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:f1VJ1ccngRlHnMrmEMSshO0GhtsYUd3ozxddfJ6AikkZO6TS" xmi:id="_2MYAtxOSEeuOR9BhkZqqgw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SBX" xmi:id="_2MYAuBOSEeuOR9BhkZqqgw">
+    <contextParameter comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo" xmi:id="_2MYAuROSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DI_CNTL" xmi:id="_2MYAuhOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="abbas_f" xmi:id="_2MYAuxOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_2MYAvBOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" xmi:id="_2MYAvROSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2MYAvhOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:MckWzqU4N8ba4hOYwSyu70jCw+wRZiv7hTt7NuX5kP4KRuER" xmi:id="_2MYAvxOSEeuOR9BhkZqqgw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="TST" xmi:id="_2MYAwBOSEeuOR9BhkZqqgw">
+    <contextParameter comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo" xmi:id="_2MYAwROSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DI_CNTL" xmi:id="_2MYAwhOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="abbas_f" xmi:id="_2MYAwxOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_2MYAxBOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" xmi:id="_2MYAxROSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2MYAxhOSEeuOR9BhkZqqgw"/>
+    <contextParameter comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:EyxrBalIsFp0+bnUCTknGQ1qaF0oxv5QC3gcuh2sbwe5PRrA" xmi:id="_2MYAxxOSEeuOR9BhkZqqgw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_161686ba-0f73-4c3c-a46e-823d80af457f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sCNN/PSuJT5DxocKmyFsew8jrEo912J374AfwAorNZ6Gh8e/85NM8Sw0ZQ7M6/IUIUp/1I5jzA35&#13;
+MFCbbVnKOg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0533619c-bdc0-4859-9df1-e27351fc2856"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+8PPEnVTVBU4ixeNfoo0bNPL70JdRY43HNWF54gVkPsmWYvsP/WLKJzIlvsyk+5xV3ftn8sMbyl1&#13;
+KWenzKRjwA==</DigestValue></Reference></SignedInfo><SignatureValue>I7VZ+k6sUjispkd7jvf7bBmUNDBbr98Xl9oCYXTbfUZRUCVmcKhFewT3ZTxx9bujOWYYiMzO4wR1&#13;
+mIa91mVDPcsbTj1U5VssbfKwfkiFGMc6rEY75WBa1zGR8NQ+NnlmvDxx1femot8IkAW40EPgf+fA&#13;
+5EezlZ3cqi75mq4HAFeH2nvJB3/NosiCefBoQUbEbQ2PN/jwVIm/e08WDjOEHrdlV5/RAv+l5HmP&#13;
+8nK1QbIZeD16R1vEGekb/fJildB4LhLPoA8VrDX6p1g6gNHRxn8C3tN0dpkmjYSz5C2f0ixTeEtM&#13;
+5iAWH4MccvUvfG3kOKV5Y+MnNABncAHsKoJajg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0533619c-bdc0-4859-9df1-e27351fc2856" Target="#_161686ba-0f73-4c3c-a46e-823d80af457f"><Timestamp>2022-04-28 06:14:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
