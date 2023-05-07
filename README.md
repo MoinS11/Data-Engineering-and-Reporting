@@ -7,3 +7,5 @@ Finally projected the data using PowerBI and Tableau to gain useful and Data-dec
 
 
 New York City Food Inspection Dashboard : https://tinyurl.com/NYC-Food-Inspections
+
+IMDB Powerbi Dashboard : https://tinyurl.com/IMDB-Data-Analysis
