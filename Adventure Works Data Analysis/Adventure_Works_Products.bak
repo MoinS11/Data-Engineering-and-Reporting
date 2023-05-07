@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="306" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=MySQLTest;UID=root;PWD=__EncPwd1__|||Product</File>
+          <Passwords>4454D36CCB00649726C5C273D933D31583433097C6493373CFAE41E00610C</Passwords>
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="ByName" />
+            </AppendMap>
+            <PreSQL>use adventureworksalteryx;</PreSQL>
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=MySQLTest
+Query=Product</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* 
+from [DADABI Database].SalesLT.Product</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AZ-SQLSERVER
+Query=select [DADABI Database].Sal...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductID" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="Int32" />
+            <Field name="Name" size="50" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="V_WString" />
+            <Field name="ProductNumber" size="25" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="V_WString" />
+            <Field name="Color" size="15" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="V_WString" />
+            <Field name="StandardCost" scale="4" size="21" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="FixedDecimal" />
+            <Field name="ListPrice" scale="4" size="21" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="FixedDecimal" />
+            <Field name="Size" size="5" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="V_WString" />
+            <Field name="Weight" scale="2" size="10" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="FixedDecimal" />
+            <Field name="ProductCategoryID" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="Int32" />
+            <Field name="ProductModelID" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="Int32" />
+            <Field name="SellStartDate" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="DateTime" />
+            <Field name="SellEndDate" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="DateTime" />
+            <Field name="DiscontinuedDate" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="DateTime" />
+            <Field name="ThumbNailPhoto" size="2147483647" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="Blob" />
+            <Field name="ThumbnailPhotoFileName" size="50" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="V_WString" />
+            <Field name="rowguid" size="36" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="V_String" />
+            <Field name="ModifiedDate" source="File: aka:AZ-SQLSERVER|||select [DADABI Database].SalesLT.Product.* &#xA;from [DADABI Database].SalesLT.Product" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Adventure_Works_Products</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="fda767f4-4c34-4a45-854e-4221ddcfec80" />
+      <Telemetry>
+        <PreviousWorkflowId value="6298da93-f188-43f2-8cfa-e19733e009fe" />
+        <OriginWorkflowId value="474ee7d8-57d6-4a34-ac32-b59b3db349eb" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

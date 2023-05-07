@@ -1,0 +1,667 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>4B1CFF43ED6273F28F018BAD232BFF52044C9776C43B96EE38F9663654394E6BE1066576D</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* 
+from AdventureWorksDW2019.dbo.DimProduct</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <SessionReadOnly>True</SessionReadOnly>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+            <SingleRowFetch>False</SingleRowFetch>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=SQLServer
+Query=select AdventureWorksDW2019....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductKey" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Int32" />
+            <Field name="ProductAlternateKey" size="25" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="ProductSubcategoryKey" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Int32" />
+            <Field name="WeightUnitMeasureCode" size="3" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="WString" />
+            <Field name="SizeUnitMeasureCode" size="3" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="WString" />
+            <Field name="EnglishProductName" size="50" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="SpanishProductName" size="50" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="FrenchProductName" size="50" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="StandardCost" scale="4" size="21" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="FixedDecimal" />
+            <Field name="FinishedGoodsFlag" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Bool" />
+            <Field name="Color" size="15" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="SafetyStockLevel" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Int16" />
+            <Field name="ReorderPoint" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Int16" />
+            <Field name="ListPrice" scale="4" size="21" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="FixedDecimal" />
+            <Field name="Size" size="50" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="SizeRange" size="50" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="Weight" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Double" />
+            <Field name="DaysToManufacture" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Int32" />
+            <Field name="ProductLine" size="2" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="WString" />
+            <Field name="DealerPrice" scale="4" size="21" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="FixedDecimal" />
+            <Field name="Class" size="2" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="WString" />
+            <Field name="Style" size="2" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="WString" />
+            <Field name="ModelName" size="50" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="LargePhoto" size="2147483647" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Blob" />
+            <Field name="EnglishDescription" size="400" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="FrenchDescription" size="400" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="ChineseDescription" size="400" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="ArabicDescription" size="400" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="HebrewDescription" size="400" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="ThaiDescription" size="400" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="GermanDescription" size="400" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="JapaneseDescription" size="400" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="TurkishDescription" size="400" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="StartDate" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="DateTime" />
+            <Field name="EndDate" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="DateTime" />
+            <Field name="Status" size="7" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>4B1CFF43ED6273F28F018BAD232BFF52044C9776C43B96EE38F9663654394E6BE1066576D</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductSubcategory.* 
+from AdventureWorksDW2019.dbo.DimProductSubcategory</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <SessionReadOnly>True</SessionReadOnly>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+            <SingleRowFetch>False</SingleRowFetch>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=SQLServer
+Query=select AdventureWorksDW2019....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductSubcategoryKey" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductSubcategory.* &#xA;from AdventureWorksDW2019.dbo.DimProductSubcategory" type="Int32" />
+            <Field name="ProductSubcategoryAlternateKey" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductSubcategory.* &#xA;from AdventureWorksDW2019.dbo.DimProductSubcategory" type="Int32" />
+            <Field name="EnglishProductSubcategoryName" size="50" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductSubcategory.* &#xA;from AdventureWorksDW2019.dbo.DimProductSubcategory" type="V_WString" />
+            <Field name="SpanishProductSubcategoryName" size="50" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductSubcategory.* &#xA;from AdventureWorksDW2019.dbo.DimProductSubcategory" type="V_WString" />
+            <Field name="FrenchProductSubcategoryName" size="50" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductSubcategory.* &#xA;from AdventureWorksDW2019.dbo.DimProductSubcategory" type="V_WString" />
+            <Field name="ProductCategoryKey" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductSubcategory.* &#xA;from AdventureWorksDW2019.dbo.DimProductSubcategory" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="210" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="ProductAlternateKey" selected="True" />
+            <Field field="WeightUnitMeasureCode" selected="True" />
+            <Field field="SizeUnitMeasureCode" selected="True" />
+            <Field field="EnglishProductName" selected="True" />
+            <Field field="SpanishProductName" selected="True" />
+            <Field field="FrenchProductName" selected="True" />
+            <Field field="Color" selected="True" />
+            <Field field="Size" selected="True" />
+            <Field field="SizeRange" selected="True" />
+            <Field field="ProductLine" selected="True" />
+            <Field field="Class" selected="True" />
+            <Field field="Style" selected="True" />
+            <Field field="ModelName" selected="True" />
+            <Field field="EnglishDescription" selected="True" />
+            <Field field="FrenchDescription" selected="True" />
+            <Field field="ChineseDescription" selected="True" />
+            <Field field="ArabicDescription" selected="True" />
+            <Field field="HebrewDescription" selected="True" />
+            <Field field="ThaiDescription" selected="True" />
+            <Field field="GermanDescription" selected="True" />
+            <Field field="JapaneseDescription" selected="True" />
+            <Field field="TurkishDescription" selected="True" />
+            <Field field="Status" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductKey" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Int32" />
+            <Field name="ProductAlternateKey" size="10" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="String" />
+            <Field name="ProductSubcategoryKey" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Int32" />
+            <Field name="WeightUnitMeasureCode" size="2" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="String" />
+            <Field name="SizeUnitMeasureCode" size="2" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="String" />
+            <Field name="EnglishProductName" size="32" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_String" />
+            <Field name="SpanishProductName" size="47" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_String" />
+            <Field name="FrenchProductName" size="46" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_String" />
+            <Field name="StandardCost" scale="4" size="21" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="FixedDecimal" />
+            <Field name="FinishedGoodsFlag" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Bool" />
+            <Field name="Color" size="12" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_String" />
+            <Field name="SafetyStockLevel" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Int16" />
+            <Field name="ReorderPoint" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Int16" />
+            <Field name="ListPrice" scale="4" size="21" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="FixedDecimal" />
+            <Field name="Size" size="2" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="String" />
+            <Field name="SizeRange" size="8" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="String" />
+            <Field name="Weight" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Double" />
+            <Field name="DaysToManufacture" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Int32" />
+            <Field name="ProductLine" size="1" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="String" />
+            <Field name="DealerPrice" scale="4" size="21" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="FixedDecimal" />
+            <Field name="Class" size="1" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="String" />
+            <Field name="Style" size="1" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="String" />
+            <Field name="ModelName" size="27" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_String" />
+            <Field name="LargePhoto" size="2147483647" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="Blob" />
+            <Field name="EnglishDescription" size="221" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_String" />
+            <Field name="FrenchDescription" size="269" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="ChineseDescription" size="83" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="ArabicDescription" size="255" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="HebrewDescription" size="203" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="ThaiDescription" size="196" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="GermanDescription" size="320" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_String" />
+            <Field name="JapaneseDescription" size="119" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="TurkishDescription" size="233" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="V_WString" />
+            <Field name="StartDate" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="DateTime" />
+            <Field name="EndDate" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="DateTime" />
+            <Field name="Status" size="7" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProduct.* &#xA;from AdventureWorksDW2019.dbo.DimProduct" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="222" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="EnglishProductSubcategoryName" selected="True" />
+            <Field field="SpanishProductSubcategoryName" selected="True" />
+            <Field field="FrenchProductSubcategoryName" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductSubcategoryKey" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductSubcategory.* &#xA;from AdventureWorksDW2019.dbo.DimProductSubcategory" type="Int32" />
+            <Field name="ProductSubcategoryAlternateKey" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductSubcategory.* &#xA;from AdventureWorksDW2019.dbo.DimProductSubcategory" type="Int32" />
+            <Field name="EnglishProductSubcategoryName" size="17" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductSubcategory.* &#xA;from AdventureWorksDW2019.dbo.DimProductSubcategory" type="V_String" />
+            <Field name="SpanishProductSubcategoryName" size="23" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductSubcategory.* &#xA;from AdventureWorksDW2019.dbo.DimProductSubcategory" type="V_String" />
+            <Field name="FrenchProductSubcategoryName" size="26" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductSubcategory.* &#xA;from AdventureWorksDW2019.dbo.DimProductSubcategory" type="V_String" />
+            <Field name="ProductCategoryKey" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductSubcategory.* &#xA;from AdventureWorksDW2019.dbo.DimProductSubcategory" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ProductKey" selected="True" />
+            <SelectField field="ProductAlternateKey" selected="True" />
+            <SelectField field="ProductSubcategoryKey" selected="True" />
+            <SelectField field="WeightUnitMeasureCode" selected="True" />
+            <SelectField field="SizeUnitMeasureCode" selected="True" />
+            <SelectField field="EnglishProductName" selected="True" />
+            <SelectField field="StandardCost" selected="True" />
+            <SelectField field="FinishedGoodsFlag" selected="True" />
+            <SelectField field="Color" selected="True" />
+            <SelectField field="SafetyStockLevel" selected="True" />
+            <SelectField field="ReorderPoint" selected="True" />
+            <SelectField field="ListPrice" selected="True" />
+            <SelectField field="Size" selected="True" />
+            <SelectField field="SizeRange" selected="True" />
+            <SelectField field="Weight" selected="True" />
+            <SelectField field="DaysToManufacture" selected="True" />
+            <SelectField field="ProductLine" selected="True" />
+            <SelectField field="DealerPrice" selected="True" />
+            <SelectField field="Class" selected="True" />
+            <SelectField field="Style" selected="True" />
+            <SelectField field="ModelName" selected="True" />
+            <SelectField field="EnglishDescription" selected="True" />
+            <SelectField field="StartDate" selected="True" />
+            <SelectField field="EndDate" selected="True" />
+            <SelectField field="Status" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ProductSubcategoryKey" selected="True" />
+            <SelectField field="ProductSubcategoryAlternateKey" selected="True" />
+            <SelectField field="EnglishProductSubcategoryName" selected="True" />
+            <SelectField field="ProductCategoryKey" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="510" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ProductSubcategoryKey" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ProductSubcategoryKey" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_ProductSubcategoryKey" selected="True" rename="Right_ProductSubcategoryKey" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\moins\AppData\Local\Temp\Engine_14852_75356aa8ead016478eb6b39c157af4b7_\Engine_14852_ba979631e31ebb4d9ad5cfadd65e1bb4~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\moins\AppData\Local\Temp\Engine_14852_75356aa8ead016478eb6b39c157af4b7_\Engine_14852_7a25823481ce06469f457defa230ef6a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="714" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>4B1CFF43ED6273F28F018BAD232BFF52044C9776C43B96EE38F9663654394E6BE1066576D</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductCategory.ProductCategoryKey,
+	AdventureWorksDW2019.dbo.DimProductCategory.ProductCategoryAlternateKey,
+	AdventureWorksDW2019.dbo.DimProductCategory.EnglishProductCategoryName 
+from AdventureWorksDW2019.dbo.DimProductCategory</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <SessionReadOnly>True</SessionReadOnly>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+            <SingleRowFetch>False</SingleRowFetch>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=SQLServer
+Query=select AdventureWorksDW2019....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductCategoryKey" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductCategory.ProductCategoryKey,&#xA;	AdventureWorksDW2019.dbo.DimProductCategory.ProductCategoryAlternateKey,&#xA;	AdventureWorksDW2019.dbo.DimProductCategory.EnglishProductCategoryName &#xA;from AdventureWorksDW2019.dbo.DimProductCategory" type="Int32" />
+            <Field name="ProductCategoryAlternateKey" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductCategory.ProductCategoryKey,&#xA;	AdventureWorksDW2019.dbo.DimProductCategory.ProductCategoryAlternateKey,&#xA;	AdventureWorksDW2019.dbo.DimProductCategory.EnglishProductCategoryName &#xA;from AdventureWorksDW2019.dbo.DimProductCategory" type="Int32" />
+            <Field name="EnglishProductCategoryName" size="50" source="File: odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||select AdventureWorksDW2019.dbo.DimProductCategory.ProductCategoryKey,&#xA;	AdventureWorksDW2019.dbo.DimProductCategory.ProductCategoryAlternateKey,&#xA;	AdventureWorksDW2019.dbo.DimProductCategory.EnglishProductCategoryName &#xA;from AdventureWorksDW2019.dbo.DimProductCategory" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="834" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ProductCategoryKey" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ProductCategoryKey" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ProductKey" selected="True" input="Left_" />
+                <SelectField field="Left_ProductAlternateKey" selected="True" input="Left_" />
+                <SelectField field="Left_ProductSubcategoryKey" selected="True" input="Left_" />
+                <SelectField field="Left_WeightUnitMeasureCode" selected="True" input="Left_" />
+                <SelectField field="Left_SizeUnitMeasureCode" selected="True" input="Left_" />
+                <SelectField field="Left_EnglishProductName" selected="True" rename="ProductName" input="Left_" />
+                <SelectField field="Left_StandardCost" selected="True" input="Left_" />
+                <SelectField field="Left_FinishedGoodsFlag" selected="True" input="Left_" />
+                <SelectField field="Left_Color" selected="True" input="Left_" />
+                <SelectField field="Left_SafetyStockLevel" selected="True" input="Left_" />
+                <SelectField field="Left_ReorderPoint" selected="True" input="Left_" />
+                <SelectField field="Left_ListPrice" selected="True" input="Left_" />
+                <SelectField field="Left_Size" selected="True" input="Left_" />
+                <SelectField field="Left_SizeRange" selected="True" input="Left_" />
+                <SelectField field="Left_Weight" selected="True" input="Left_" />
+                <SelectField field="Left_DaysToManufacture" selected="True" input="Left_" />
+                <SelectField field="Left_ProductLine" selected="True" input="Left_" />
+                <SelectField field="Left_DealerPrice" selected="True" input="Left_" />
+                <SelectField field="Left_Class" selected="True" input="Left_" />
+                <SelectField field="Left_Style" selected="True" input="Left_" />
+                <SelectField field="Left_ModelName" selected="True" input="Left_" />
+                <SelectField field="Left_EnglishDescription" selected="True" input="Left_" />
+                <SelectField field="Left_StartDate" selected="True" input="Left_" />
+                <SelectField field="Left_EndDate" selected="True" input="Left_" />
+                <SelectField field="Left_Status" selected="True" input="Left_" />
+                <SelectField field="Left_ProductSubcategoryAlternateKey" selected="True" input="Left_" />
+                <SelectField field="Left_EnglishProductSubcategoryName" selected="True" rename="SubCategoryName" input="Left_" />
+                <SelectField field="Left_ProductCategoryKey" selected="True" input="Left_" />
+                <SelectField field="Right_ProductCategoryKey" selected="False" rename="Right_ProductCategoryKey" input="Right_" />
+                <SelectField field="Right_ProductCategoryAlternateKey" selected="True" input="Right_" />
+                <SelectField field="Right_EnglishProductCategoryName" selected="True" rename="CategoryName" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="966" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=SQLServer;UID=sa;PWD=__EncPwd1__|||ADW_Products_Sold</File>
+          <Passwords>4B1CFF43ED6273F28F018BAD232BFF52044C9776C43B96EE38F9663654394E6BE1066576D</Passwords>
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL>use ADW_Products_Sold;</PreSQL>
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=SQLServer
+Query=ADW_Products_Sold</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="966" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\moins\AppData\Local\Temp\Engine_14852_75356aa8ead016478eb6b39c157af4b7_\Engine_14852_bd2c993419b14c4b9a98c7d2651a167b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="966" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\moins\AppData\Local\Temp\Engine_14852_75356aa8ead016478eb6b39c157af4b7_\Engine_14852_58819f25aa93904b9237ff02f2046d2e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Left" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Right" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="12" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Join" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Left" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Right" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>AdventureWorksDW_Data_Prep</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0ed0963c-66ae-4129-9f20-e2b3228630a8" />
+      <Telemetry>
+        <PreviousWorkflowId value="6eb9245b-af49-4777-b6da-fb286939870b" />
+        <OriginWorkflowId value="6eb9245b-af49-4777-b6da-fb286939870b" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
