@@ -1,6 +1,12 @@
 # Data-Engineering-and-Reporting
 
-This Repository includes Data Engineering And Data Analysis projects which involved utilization of several On-premise database technologies like SQL, MySQL, PostgresSQL, DBeaver and Cloud Databases like Azure SQL, Azure Data Studio.
-Undertaking these projects involved use of Google Big Query, Azure Data tools.
-For all the Data preparation, profiling and ETL Jobs I have used Talend and Alteryx and SQL server for querying the Databases.
-Finally projected the data using PowerBI and Tableau to gain useful and Data-decisions.
+--> IMDB Data Analysis
+
+• Designed Data Warehouse for the IMDb Dataset implementing snowflake schema, implemented SCDs facilitating historical data analysis
+• Profiled data to discover data anomalies, streamlined data pipelines, cleansed and staged largescale data from multiple sources using Talend & Alteryx jobs
+
+• Engineered ETL workflows to integrate and load data into facts & dimensions using Talend, ensuring constraints, conformity and consistency
+
+• Optimized 20+ ETL jobs ensuring one-click load using master job and parallelization with record time: 1 hr 47 mins, improving efficiency by 45%
+
+• Visualized data using Tableau and Power BI, implemented DAX queries and devised interactive dashboards highlighting critical KPIs
