@@ -25,6 +25,12 @@ Project Highlights
 • Performed advanced SQL queries to verify the accuracy of numbers and metrics in reports and supported further data analysis.
 
 
+ER Model:
+
+![image](https://github.com/MoinS11/Data-Engineering-and-Reporting/assets/114698134/cba1ec4e-7aef-47bf-948a-c1550072f060)
+
+
+
 Getting Started
 
 To run the ETL process and reproduce the analysis, follow these steps:
