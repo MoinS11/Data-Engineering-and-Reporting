@@ -18,6 +18,6 @@ I am going to use different technologies such as Python, Amazon Web Services (AW
 5. EC2
 - Apache Kafka
 
-Here is the dataset  - 
+Here is the dataset  - https://github.com/MoinS11/Data-Engineering-and-Reporting/blob/main/Real%20time%20stock%20market%20Analysis%20using%20Kafka%20%26%20AWS/Sample%20Stock%20Market%20Data.csv
 
 
