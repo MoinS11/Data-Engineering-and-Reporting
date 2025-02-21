@@ -4,7 +4,7 @@
 This project builds an **end-to-end data pipeline** for **Healthcare Revenue Cycle Management (RCM)** using **Azure Data Engineering tools**. The pipeline processes **Electronic Medical Records (EMR), Insurance Claims, and ICD/NPI API data**, leveraging **Medallion Architecture (Bronze → Silver → Gold)** for data transformation and reporting.  
 
 ## 🔹 Architecture Diagram  
-![Architecture](./Architecture diagram.jpg)
+Architecture diagram.jpg
 
 ## 🏗️ Tech Stack  
 - **Cloud Platform**: Microsoft Azure  
